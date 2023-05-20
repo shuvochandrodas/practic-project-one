@@ -14,14 +14,37 @@ h1{
 h2{
     font-size:40px;
 }
+p{
+    line-height:1.5rem;
+    text-align:justify;
+}
+a{
+    text-decoration:none;
+    background:linear-gradient(rgb(252, 71, 71),rgba(248, 146, 146, 0.945));
+    padding:10px 30px;
+    color:#fff;
+    font-size:20px;
+    border-radius:5px;
+    text-transform:uppercase;
+}
 .profile{
     display:flex;
+    padding-top:50px;
+    background-image:url('images/top-banner.png');
+    background-repeat:no-repeat;
 }
-.profile .half-width{
+.half-width{
     width:50%;
-    margin-left:5%;
-    margin-right:5%;
+    padding-left:5%;
+    padding-right:5%;
 }
 .profile .half-width .profile-name{
     color:coral;
+}
+.dream-big{
+    display:flex;
+    padding-top:50px;
+    background-image:url('images/dream-bg.png');
+    background-repeat:no-repeat;
+    background-position:right;
 }
