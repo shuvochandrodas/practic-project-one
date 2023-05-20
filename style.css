@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 body{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width:100%;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:40px;
+}
+.profile{
+    display:flex;
+}
+.profile .half-width{
+    width:50%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.profile .half-width .profile-name{
+    color:coral;
 }
