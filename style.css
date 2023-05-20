@@ -48,3 +48,29 @@ a{
     background-repeat:no-repeat;
     background-position:right;
 }
+.experience{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.experience h1{
+    text-align:center;
+}
+.experience-col{
+    display:flex;
+}
+.experience .single-exp{
+    width:50%;
+    padding-left:5%;
+    padding-right:5%;
+}
+.single-exp-bg{
+    border-left:5px solid orangered;
+    background-color:aliceblue;
+    padding:10px;
+    box-sizing: border-box;
+    height:300px;
+    box-shadow:1px 3px 5px #000;
+}
+.single-exp-bg-green{
+    border-left:5px solid rgb(5, 69, 73);
+}
